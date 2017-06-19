@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>个人简历</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!-- //for-mobile-apps -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen">
+    <!-- chocolate css for gallery light box-->
+    <!-- animation -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <!-- //animation -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!-- onlinefonts -->
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script:400,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700" rel="stylesheet">
+    <!-- //onlinefonts -->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!-- header -->
+<div class="header-w3layouts">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">简历</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1><a class="navbar-brand" href="index.html">简历</a></h1>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
+                    <li><a class="page-scroll scroll active" href="#home">Home</a></li>
+                    <li><a class="page-scroll scroll" href="#about">About</a></li>
+                    <li><a class="page-scroll scroll" href="#edu">Education</a></li>
+                    <li><a class="page-scroll scroll" href="#exp">Experience</a></li>
+                    <li><a class="page-scroll scroll" href="#project">Project</a></li>
+                    <li><a class="page-scroll scroll" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+</div>
+<!-- //header -->
+<div class="header jarallax" id="home">
+    <div class="container">
+        <div class="banner-text text-center">
+            <h2>嗨，我是刘晓林</h2>
+
+            <h3> - 前端工程师 - </h3>
+
+            <p></p>
+            <!--<div class="w3l-button banner-btn">-->
+            <!--<a href="#">Download CV</a>-->
+            <!--</div>-->
+        </div>
+        <div class="w3-arrow bounce animated">
+            <a href="#about" class="scroll"><i class="fa fa-angle-down" aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+</div>
+
+<div class="about" id="about">
+    <div class="container">
+        <h3 class="w3l-heading">About</h3>
+
+        <div class="col-md-4 w3-about-top">
+            <img src="images/3.jpg" class="img-responsive" alt="about-img"/>
+        </div>
+        <div class="col-md-8 w3l-about">
+            <div class="w3ls-heading">
+                <h2>我是一名前端工程师，热衷于前端开发和页面创作。</h2>
+            </div>
+            <div class="w3ls-about-info">
+                <!--<p>1.本人性格沉着冷静，善于思考，对计算机编程语言抱有热诚，并且乐观积极；<br/>
+                    2.有高度的责任感和较强的团队协作意识，有较强的工作责任心和事业心,能承受较强的压力；<br/>
+                    3.有良好的沟通能力，善于与他人沟通，能与他人为善；<br/>
+                    4.具有良好地自我学习能力；</p>-->
+                <p>
+                    1.精通HTML页面技术、CSS样式以及JavaScript脚本语言<br/>
+                    2.精通JS框架——jQuery<br/>
+                    3.精通AngularJS中的双向数据绑定、路由等内容<br/>
+                    4.熟练的掌握svn的上传与整合、grunt工具打包代码、WebStorm等前端软件的使用、Ajax异步请求等
+                </p>
+            </div>
+            <div class="w3l-button">
+                <a data-toggle="modal" data-target="#myModal">查看我的个人资料</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- modal -->
+<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">简历</h4>
+            </div>
+            <div class="modal-body">
+                <div class="about">
+                    <div class="col-md-4 col-sm-4  col-xs-4 about-left ">
+                        <img src="images/3.jpg" class="img-responsive" alt=""/>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-8 about-right wthree">
+                        <h3>你好,我是 <span>刘晓林</span></h3>
+                        <h4>前端工程师</h4>
+                        <ul class="address">
+                            <li>
+                                <ul class="agileits-address-text ">
+                                    <li><b>出生</b></li>
+                                    <li>1993-03</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>电话 </b></li>
+                                    <li>15760058792</li>
+                                </ul>
+                            </li>
+                            <!--<li>
+                                <ul class="agileits-address-text">
+                                    <li><b> </b></li>
+                                    <li>756 global Place, North Sydney, Canada.</li>
+                                </ul>
+                            </li>-->
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>E-MAIL </b></li>
+                                    <li><a href="mailto:example@mail.com">15760058792@163.com</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <ul class="agileits-address-text">
+                                    <li><b>WEBSITE </b></li>
+                                    <li><a href="https://LynnLiu0818.github.io">LynnLiu0818.github.io</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //modal -->
+<!--Education-->
+<div id="edu" class="agile-edu">
+    <div class="container">
+        <h3 class="w3l-heading">Education</h3>
+
+        <div class="work-info">
+            <div class="col-md-6 col-sm-6 col-xs-6 work-right work-right2">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+                <div class="col-md-6  col-sm-6 col-xs-6  work1">
+                    <h4>西华师范大学</h4>
+
+                    <p>本科</p>
+
+                    <p>新闻学</p></div>
+                <div class="col-md-6  col-sm-6 col-xs-6  work2">
+                    <h5>大学</h5>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="work-info">
+            <div class="col-md-6  col-sm-6 col-xs-6">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6  work-right">
+                <div class="col-md-6  col-sm-6 col-xs-6 work2">
+                    <span></span>
+                    <h5>高中</h5>
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6  work-right1">
+                    <h4>四川省宜宾市第四中学</h4>
+
+                    <p></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <span class="edu-circle"></span>
+    </div>
+</div>
+<!--//Education-->
+<div class="agile-border">
+    <span></span>
+</div>
+<!-- work-experience-->
+<div id="exp" class="agile-edu exp">
+    <div class="container">
+        <h3 class="w3l-heading">Experience</h3>
+
+        <div class="work-info">
+            <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+                <div class="col-md-6  col-sm-6 col-xs-6  work1">
+                    <h4>2017.04-至今</h4>
+
+                    <p>负责奇点物流网站客户中心前端开发，主要包括客户物流下单，信息的完善，发票信息，订单流程等部分。</p>
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6 work2">
+                    <h5>成都奇点物流有限公司</h5>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="work-info">
+            <div class="col-md-6  col-sm-6 col-xs-6 ">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+                <div class="col-md-6 col-sm-6 col-xs-6 work2">
+                    <span></span>
+                    <h5>杭州穆道网络科技有限公司</h5>
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+                    <h4>2014.12-2017.03</h4>
+
+                    <p>前端开发，负责完成产品设计交给的图纸进行完整呈现。<br/>
+                        了解公司具体业务。根据业务完成所需功能。<br/>
+                        扩展知识面，学习Angular指令的使用<br/>
+                        对项目工作进行分配，了解其他同事负责板块</p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <span class="edu-circle"></span>
+        </div>
+    </div>
+</div>
+<!--//work-experience-->
+<div id="project" class="agile-edu exp">
+    <div class="container">
+        <h3 class="w3l-heading">Project</h3>
+
+        <div class="work-info">
+            <div class="col-md-6  col-sm-6 col-xs-6  work-right work-right2">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2">
+                <div class="col-md-6  col-sm-6 col-xs-6  work1">
+                    <h4>2017.05-至今</h4>
+
+                    <p>客户中心项目为PC端开发，方便奇点物流客户下单。主要负责客户物流下单，信息的完善，发票信息，订单流程等部分</p>
+
+                    <p>此项目主要是采用原生js和jQuery技术，使用Axure设计了简单的页面原型，个人使用的是webStorm软件进行开发。代码内容上传并整合使用的是svn。</p>
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6 work2">
+                    <h5>奇点物流客户中心项目</h5>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="work-info">
+            <div class="col-md-6  col-sm-6 col-xs-6 ">
+            </div>
+            <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+                <div class="col-md-6 col-sm-6 col-xs-6 work2">
+                    <span></span>
+                    <h5>微策略项目</h5>
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+                    <h4>2016.02 - 2017.03</h4>
+
+                    <p>1.微策略页面和功能开发，与后端对接接口并且进行联调<br/>
+                        2.对项目进行自测并修改bug<br/>
+                        3.微策略后期功能优化与调整
+                    </p>
+
+                    <p>
+                        A股交易平台（网址：https://ycl.yztz.cn）,为移动端H5开发，将用户需要买入得股票种类和数量提供给会根据行情波动来卖出的用户，将他们撮合交易。亏损和盈利根据一定比例分配。
+                    </p>
+
+                    <p>
+                        此项目主要是采用MVC模式AngularJs
+                        框架和jQuery库，页面为单页面，与后端的数据连接主要采用的是nginx，个人使用的是webStorm软件进行开发。打包工具运用的是grunt，代码内容上传并整合使用的是svn。运用AngularJs的注入对各层解耦，提高了程序的可扩展性，易于维护。
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="work-2">
+            <div class="work-info">
+                <div class="col-md-6  col-sm-6 col-xs-6 work-right work-right2">
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6  work-left work-left2 ">
+                    <div class="col-md-6  col-sm-6 col-xs-6 work1">
+                        <h4>2016.06 - 2017.03</h4>
+
+                        <p>1.策略宝页面和功能开发，与后端对接接口并且进行联调<br/>
+                            2.对项目进行自测并修改bug<br/>
+                            3.策略宝后期功能优化与调整</p>
+
+                        <p>
+                            期货交易平台 （网址：https://clb.yztz.cn）,为移动端H5开发，具体功能为用户选择想买入的期货品种和数量进行买入，支付一定的手续费用。并在当日根据行情波动来选择卖出。
+                        </p>
+                    </div>
+                    <div class="col-md-6  col-sm-6 col-xs-6  work2">
+                        <h5> 策略宝项目</h5>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="work-info">
+                <div class="col-md-6  col-sm-6 col-xs-6 ">
+                </div>
+                <div class="col-md-6  col-sm-6 col-xs-6 work-right">
+                    <div class="col-md-6  col-sm-6 col-xs-6 work2">
+                        <span></span>
+                        <h5>赢在投资项目</h5>
+                    </div>
+                    <div class="col-md-6  col-sm-6 col-xs-6 work-right1">
+                        <h4>2016.02 - 2016.03</h4>
+
+                        <p>1. 熟悉项目前端部分的jsp文件代码，了解业务构成<br/>
+                            2. 优化部分页面，比如模拟炒股大赛页面等
+                        </p>
+
+                        <p>
+                            赢在投资（网址：http://www.yztz.com/），为股票交易平台，有股票交易、一元操盘、模拟炒股等业务。
+                        </p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <span class="edu-circle"></span>
+        </div>
+
+    </div>
+</div>
+<!-- contact -->
+<div id="contact" class="w3_agileits-contact">
+    <div class="container">
+        <h3 class="w3l-heading">Contact</h3>
+
+        <div class="w3_agile-contact  jarallax text-center">
+            <h4>刘晓林</h4>
+            <a href="mailto:15760058792@163.com">15760058792@163.com</a>
+            <h5>15760058792</h5>
+        </div>
+    </div>
+</div>
+<!-- footer -->
+<div class="agileits_w3layouts-footer text-center">
+    <div class="container">
+        <p>刘晓林的电子简历</a></p>
+    </div>
+</div>
+<!-- //footer -->
+<!-- //contact -->
+<!-- PopUp-Box-JavaScript -->
+<script src="js/jquery.chocolat.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.filtr-item a').Chocolat();
+    });
+</script>
+<!-- //PopUp-Box-JavaScript -->
+<!-- fliter-JavaScript -->
+<script src="js/jquery.filterizr.js"></script>
+<script src="js/controls.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.filtr-container').filterizr();
+    });
+</script>
+<!-- //fliter-JavaScript -->
+<script src="js/jarallax.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+    /* init Jarallax */
+    $('.jarallax').jarallax({
+        speed: 0.5,
+        imgWidth: 1366,
+        imgHeight: 768
+    })
+</script>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/easing.js"></script>
+<!-- //here ends scrolling icon -->
+
+
+</body>
+</html>
